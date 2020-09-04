@@ -1,0 +1,20 @@
+#center {
+    margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+#mainDiv {
+    background-color: antiquewhite;
+    width: fit-content;
+    height: 100px;
+    text-align: center;
+}
+
+h2, h3 {
+    text-align: center;
+    color: blanchedalmond;
+}
+
