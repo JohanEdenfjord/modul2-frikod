@@ -1,10 +1,12 @@
+let backgroundColor = undefined;
+let isButtonClicked = false;
+  
 (function () {
   let headerOne = document.getElementById("hey");
   let headerTwo = document.querySelector("h2");
   let headerThree = document.querySelector("h3");
   const button = document.querySelector("#hello");
-  let backgroundColor = undefined;
-  let isButtonClicked = false;
+  
 
   document.addEventListener("binary", (e) => {
     console.log("hello");
